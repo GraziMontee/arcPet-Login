@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>Login</title>
+</head>
+<body>
+  <div class="menu-content">
+    <h2 class="welcome">WELCOME FRIENDS! </h2>
+    <p>Faça seu cadastro, entre em nosso site </p>
+    <p2>e encontre tudo o que seu pet precisa no arcPet</p2>
+    <img class="imagem" src="img/pets.png">
+  </div>
+   <div class="login-page">
+    <div class="form">
+      <div class="inicio">
+        <h2 class="titulo">arcPet</h2>
+        <p>FAÇA SEU REGISTRO AQUI</p>
+        <div class="icons">
+        <i class='bx bxl-facebook-circle'></i>
+        <i class='bx bxl-linkedin-square'></i>
+        <i class='bx bxl-google-plus-circle'></i>
+        </div>
+      <form>
+        <lottie-player src="https://assets4.lottiefiles.com/datafiles/XRVoUu3IX4sGWtiC3MPpFnJvZNq7lVWDCa8LSqgS/profile.json"  background="transparent"  speed="1"  style="justify-content: center;" loop  autoplay></lottie-player>
+        <input type="text" placeholder="     username"/>
+        <input type="password" id="password" placeholder="     password"/>
+        <div class="icone">
+          <i class='bx bx-envelope'></i>
+        </div>
+        <div class="icones">
+          <i class='bx bx-lock-open-alt'></i>
+        </div>
+        </div>
+        <i class="fas fa-eye" onclick="show()"></i> 
+        <br>
+        <br>
+      </form>
+      <form class="login-form">
+        <button type="button" onclick="window.location.href='signup.html'">LOGIN</button>
+        <button type="button" onclick="window.location.href='signup.html'">SIGN UP</button>
+      </form>
+
+      </div>
+    </div>
+  </div>
+  <script>
+    function show(){
+      var password = document.getElementById("password");
+      var icon = document.querySelector(".fas")
+
+      // ========== Checking type of password ===========
+      if(password.type === "password"){
+        password.type = "text";
+      }
+      else {
+        password.type = "password";
+      }
+    };
+  </script>
+</body>
+</html>

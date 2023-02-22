@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Creepster&family=Rakkas&family=Rubik+Gemstones&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+body{
+    margin-top: 0%;
+    width: 100%;
+    background-color: #59867d;
+}
+.welcome{
+  position: absolute;
+  margin-top: 13%;
+  margin-left: 7%;
+  font-size: 30px;
+  color: #FFFFFF;
+  text-shadow: 1px 1px 10px #ec790e;
+}
+.menu-content p{
+  position: absolute;
+  margin-top: 18%;
+  margin-left: 7%;
+  font-family: cursive;
+  color:#272727;
+}
+.menu-content p2{
+  position: absolute;
+  margin-top: 20%;
+  margin-left: 5%;
+  font-family: cursive;
+  color:#272727;
+}
+.imagem{
+  position: absolute;
+  margin-top: 30%;
+  height: 43%;
+  width: 43%;
+  margin-left: 0%;
+}
+.titulo{
+  position: absolute;
+  margin-top:-30%;
+  margin-left: 30%;
+  color: #59867d;
+  font-size: 300%;
+  letter-spacing: 0.6rem;
+  font-family: 'Courgette', cursive;
+}
+.icons{
+  position: absolute;
+  top:-15%;
+  margin-left: 32%;
+  font-size: 300%;
+}
+.inicio p{
+  position: absolute;
+  margin-top: -10%;
+  margin-left: 30%;
+  color: #576462d3;
+}
+.icone{
+  position: absolute;
+  top: 9%;
+  margin-left: 24%;
+}
+.icones{
+  position: absolute;
+  top: 2.5%;
+  margin-left: 24%;
+}
+.form {
+    position: relative;
+    z-index: 1;
+    background: #ffffff;
+    max-width: 1090px;
+    height: 880px;
+    margin: 1px;
+    margin-left: 40%;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    
+  }
+  .form div{
+    display: block;
+    margin-top: 40%;
+  }
+  .form input {
+    font-family: FontAwesome, "Roboto", sans-serif;
+    outline: 0;
+    background: #f2f2f2;
+    width: 50%;
+    border: 0;
+    margin: 0 0 15px;
+    margin-left: 1%;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+    border-radius:10px;
+    
+  }
+  .form button {
+    font-family: "Titillium Web", sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: .1em;
+    outline: 0;
+    background: #ec790e;
+    width: 50%;
+    border: 0;
+  border-radius:30px;
+    margin: 0 0 15px;
+    padding: 15px;
+    color: #FFFFFF;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+    transition: all 0.2s;
+  
+  
+  }
+  .form button:hover,.form button:focus {
+    background: #148f77;
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    transform: translateY(-4px);
+  }
+  .form button:active {
+    transform: translateY(2px);
+    box-shadow: 0 2.5px 5px rgba(0, 0, 0, 0.2);
+  }
+  .form .register-form {
+    display: none;
+  }
+
